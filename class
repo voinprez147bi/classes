@@ -1,0 +1,16 @@
+class Giraffes():
+    def right_foot_forward(self):
+        print("правая вперёд")
+    def left_foot_back(self):
+        print("левая назад")
+    def right_foot_back(self):
+        print("правая назад")
+    def left_foot_forward(self):
+        print("левая вперёд")
+    def dance(self):
+        self.right_foot_forward()
+        self.left_foot_back()
+        self.right_foot_back()
+        self.left_foot_forward()
+rege = Giraffes()
+rege.dance()
